@@ -1,0 +1,418 @@
+/* CSS Document */
+*{
+	margin:0;
+	padding:0;
+	outline:none;
+	border:none;
+	}
+img{
+	border:0 none;
+	vertical-align:top;
+	outline:none;
+	}
+input {
+	border-width: 0;
+	width: 0;
+	outline:none;
+	box-shadow: none;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);    
+    -webkit-user-modify: read-write-plaintext-only;
+}
+body,html{
+	min-width:1200px;
+	min-height:100%;
+	font-family:'方正正黑简体';
+	font-weight:normal;
+	background:#FFF;
+	font-size:0;
+	}
+.hearder{
+	position:relative;
+	}
+.top{
+	position:relative;
+	width:100%;
+	height:213px;
+	text-align:center;
+	background:url(../image/top-bg.jpg) no-repeat;
+	}
+.ban{
+	position:relative;
+	width:1200px;
+	margin:0 auto;
+	padding-top:125px;
+	/*border:1px solid green;*/
+	}
+.midden{
+	position:relative;
+	width:100%;
+	height:190px;
+	background:url(../image/top-bg2.jpg) no-repeat;
+	}
+.txt{
+	position:relative;
+	width:1200px;
+	height:95px;
+	margin:0 auto;
+	padding-top:47.5px;
+	
+	}
+.txt p{
+	font-size:25px;
+	color:#FFF;
+	text-indent:2em;
+	margin:0 128px;
+	line-height:45px;
+	}
+.botton{
+	position:relative;
+	width:100%;
+	height:299px;
+	background:url(../image/top-bg3.jpg) no-repeat;
+	/*border:1px solid red;*/
+	}
+.ban1{
+	position:relative;
+	width:1200px;
+	margin:0 auto;
+	text-align:center;
+/*	border:1px solid blue;*/
+	}
+.btn{
+	position:relative;
+	width:300px;
+	height:80px;
+	border-radius:15px;
+	cursor:pointer;
+	margin-top:64px;
+	background-image:url(../image/button.png);
+	}
+.container{
+	position:relative;
+	width:100%;
+	background:url(../image/content_bj.gif);
+	}
+.content{
+	position:relative;
+	width:1200px;
+	margin:0 auto;
+	text-align:center;
+	}
+h1{
+	font-family:"微软雅黑";
+	font-size:70px;
+	font-weight:bold;
+	padding-top:60px;
+	padding-bottom:60px;
+	line-height:74px;
+	}
+.red{
+	color:red;
+	}
+.green{
+	color:green;
+	}
+.line {
+    border-bottom: 1px #808080 dashed;
+}
+.describe{
+	font-size:25px;
+	margin:60px auto;
+	}
+.Feature{
+	margin:60px auto;
+	}
+.Feature div{
+	width:255px;
+	height:87px;
+	font-size:21px;
+	line-height:87px;
+	color:#FFF;
+	display:inline-block;
+	/*border:1px solid blue;*/
+	background:url(../image/title-bg.png) no-repeat;
+	}
+.p1{
+	margin-right:30px;
+	margin-left:60px;
+	}
+.p2{
+	margin-right:60px;
+	margin-left:30px;
+	}
+.p5,.p6{
+	margin-left:45px;
+	}
+.p1 p,.p2 p{
+	margin-left:45px;
+	}
+.advantage{
+	position:relative;
+	width:100%;
+	height:800px;
+	text-align:center;
+	background:url(../image/ban.jpg) no-repeat top;
+	}
+.advantage h1{
+	font-family:"微软雅黑";
+	font-size:70px;
+	color:#FFF;
+/*	border:1px solid red;*/
+	}	
+.advantage span{
+	font-family:"微软雅黑";
+	font-size:100px;
+	color:red;
+    line-height:50px;
+	}
+.advantage h3{
+	font-family:'方正中黑简体';
+	font-size:30px;
+	color:red;
+	}
+.advantage p{
+	font-size:25px;
+	color:#000;
+	line-height:40px;
+	}
+.one{
+	margin-top:140px;
+	margin-left:-750px;;
+	}
+.two{
+	margin-top:25px;
+	margin-left:-250px;
+	}
+.three{
+	margin-top:-300px;
+	margin-left:270px;
+	}
+.four{
+	margin-top:0;
+	margin-left:770px;
+	}
+.footer{
+	position:relative;
+	text-align:center;
+	}
+.p4{
+	margin-top:64px;
+	}
+.p3{
+	font-family:"微软雅黑";
+	font-size:20px;
+	color:#808080;
+	margin-top:64px;
+	margin-bottom:25px;
+	}
+/*弹窗*/
+.PopupBox {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	margin: -300px 0 0 -220px;
+	width: 600px;
+	height: 440px;
+	background-color: #f4f4f4;
+	display:none;
+	z-index:1000;
+}
+.row1 {
+	position: relative;
+	width: 100%;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	font-family: '方正正中黑简体';
+	font-size: 20px;
+	font-weight: normal;
+	color: #49474c;
+	text-shadow: 1px 1px 1px rgba(255,255,255,1);
+	/*渐变*/
+	background: -moz-linear-gradient(top, #edeef3 0%, #cccacb 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #edeef3), color-stop(100%, #cccacb));
+	background: -webkit-linear-gradient(top, #edeef3 0%, #cccacb 100%);
+	background: -o-linear-gradient(top, #edeef3 0%, #cccacb 100%);
+	background: -ms-linear-gradient(top, #edeef3 0%, #cccacb 100%);
+	background: linear-gradient(to bottom, #edeef3 0%, #cccacb 100%);
+	/*ie*/
+ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#edeef3', endColorstr='#cccacb', GradientType=0 );
+}
+:root .row1 {
+	filter: none;
+}
+.row1 span {
+	font-family: '方正正中黑简体';
+	font-size: 24px;
+	font-weight: normal;
+	color: #49474c;
+	text-shadow: 1px 1px 1px rgba(255,255,255,1);
+}
+.close_btn {
+	font-family: arial;
+	font-size: 50px;
+	font-weight: 400;
+	color:rgba(0,0,0,0.5);
+	text-decoration: none;
+	float: right;
+	padding-right: 24px;
+}
+.close_btn:hover {
+	font-family: arial;
+	font-size: 50px;
+	font-weight: 400;
+	color: #999;
+	text-decoration: none;
+	float: right;
+	padding-right: 24px;
+}
+.row {
+	position: relative;
+	width: 100%;
+	height: 50px;
+	font-family: '方正正黑简体';
+	font-size: 20px;
+	font-weight: normal;
+	color: #49474c;
+	margin: 32px auto;
+	margin-left: 75px;
+}
+.row label {
+	position: absolute;
+	top:5px;
+	left: 115px;
+}
+.row input {
+	width: 300px;
+	height: 50px;
+	line-height: 50px;
+	padding-left: 40px;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	border: 1px solid #b2b2b2;
+	/*渐变*/
+	background: -moz-linear-gradient(top, #e5e5e5 0%, #f2f2f2 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #e5e5e5), color-stop(100%, #f2f2f2));
+	background: -webkit-linear-gradient(top, #e5e5e5 0%, #f2f2f2 100%);
+	background: -o-linear-gradient(top, #e5e5e5 0%, #f2f2f2 100%);
+	background: -ms-linear-gradient(top, #e5e5e5 0%, #f2f2f2 100%);
+	background: linear-gradient(to bottom, #e5e5e5 0%, #f2f2f2 100%);
+	/*ie*/
+   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5e5e5', endColorstr='#f2f2f2', GradientType=0 );
+}
+:root .row input {
+	filter: none;
+}
+
+.sub_btn {
+	padding: 10px 95px;
+	margin-top: 20px;
+	margin-left:40px;
+	border-radius: 10px;
+	-webkit-border-radius: 10px; 
+	-moz-border-radius:10px;
+	font-family: '方正正中黑简体';
+	font-size:24px;
+	color:#49474c;
+	cursor: pointer;
+	/*边框外阴影*/
+	box-shadow:1px 1px 2px rgba(0,0,0,.2);
+	-webkit-box-shadow: 1px 1px 2px rgba(0,0,0,.2);
+	-moz-box-shadow: 1px 1px 2px rgba(0,0,0,.2);
+	/*文本阴影*/
+	text-shadow: 1px 1px 1px rgba(255,255,255,0.8);
+	/*边框内阴影*/
+    box-shadow: 0px 0px 3px 3px rgba(92,146,0,0.35) inset;
+	-webkit-box-shadow: 0px 0px 3px 3px rgba(92,146,0,0.35) inset;
+	-moz-box-shadow: 0px 0px 3px 3px rgba(92,146,0,0.35) inset; 
+	/*渐变*/
+	background: -moz-linear-gradient(top, #76ba31 0%, #a7d24d 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #76ba31), color-stop(100%, #a7d24d));
+	background: -webkit-linear-gradient(top, #76ba31 0%, #a7d24d 100%);
+	background: -o-linear-gradient(top, #76ba31 0%, #a7d24d 100%);
+	background: -ms-linear-gradient(top, #76ba31 0%, #a7d24d 100%);
+	background: linear-gradient(to bottom, #76ba31 0%, #a7d24d 100%);
+	/*ie*/
+   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#76ba31', endColorstr='#a7d24d', GradientType=0 );
+   
+}
+:root .sub_btn {
+	filter: none;
+}
+.inputBox1 input{
+	margin-left:60px;
+	}
+.inputBox2 input{
+	margin-left:40px;
+	}
+.inputBox3 input{
+	margin-left:40px;
+	}
+.inputBox3 .btns{
+	position:absolute;
+	width:100px;
+	height:50px;
+	background-color:#595959;
+	font-family:'方正正黑简体';
+	font-size:15px;
+	color:#FFF;
+	right:148px;
+	bottom:-1px;
+	border-radius:0 10px 10px 0;
+	-webkit-border-radius: 0 10px 10px 0; 
+	-moz-border-radius:0 10px 10px 0;
+	cursor: pointer;
+	text-shadow: 1px 1px 1px rgba(89,89,89,0.3);
+	}
+.sub_btn:hover {
+	box-shadow: 0px 0px 3px 3px rgba(92,146,0,0.5) inset;
+	-webkit-box-shadow: 0px 0px 3px 3px rgba(92,146,0,0.5) inset;
+	-moz-box-shadow: 0px 0px 3px 3px rgba(92,146,0,0.5) inset; 
+	/*渐变*/
+	background: -moz-linear-gradient(top, rgba(118,186,49,0.9) 0%, rgba(167,210,77,0.9) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(118,186,49,0.9)), color-stop(100%, rgba(167,210,77,0.9)));
+	background: -webkit-linear-gradient(top, rgba(118,186,49,0.9) 0%, rgba(167,210,77,0.9) 100%);
+	background: -o-linear-gradient(top, rgba(118,186,49,0.9) 0%, rgba(167,210,77,0.9) 100%);
+	background: -ms-linear-gradient(top, rgba(118,186,49,0.9) 0%, rgba(167,210,77,0.9) 100%);
+	background: linear-gradient(to bottom, rgba(118,186,49,0.9) 0%, rgba(167,210,77,0.9) 100%);
+	/*ie*/
+   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='rgba(118,186,49,0.9)', endColorstr='rgba(167,210,77,0.9)', GradientType=0 );
+	}
+/*弹窗end*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

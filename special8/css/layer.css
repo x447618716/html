@@ -1,0 +1,94 @@
+@charset "utf-8";
+.layermbox{z-index:19891014;  position:relative;}
+.layermmain,.laymshade{position:fixed; left:0; top:0; width:100%; height:100%;}
+.layermbtn span,.layermchild{display:inline-block; position:relative;}
+/*遮罩层*/
+.laymshade{background-color:rgba(0,0,0,0.5); pointer-events:auto; height:100%; }
+.layermmain{display:table;font-family:Helvetica,arial,sans-serif;pointer-events:none}
+.layermmain .section{display:table-cell;vertical-align:middle;text-align:center}
+.layermchild{text-align:left;background-color:#fff;font-size:14px; box-shadow:0 0 8px rgba(0,0,0,.1);pointer-events:auto;-webkit-animation-fill-mode:both;animation-fill-mode:both;-webkit-animation-duration:.18s;animation-duration:.18s}
+.layermborder{border:1px solid #999}
+@-webkit-keyframes bounceIn{
+	0%{opacity:0;-webkit-transform:scale(.5);transform:scale(.5)}
+	100%{opacity:1;-webkit-transform:scale(1);transform:scale(1)}
+}
+.layermanim{animation-name:bounceIn;-webkit-animation-name:bounceIn}
+/*宽度*/
+.layermbox0 .layermchild{width:92%;}
+.layermbox1 .layermchild{border:none;border-radius:0}
+.layermbox2 .layermchild{width:auto;max-width:260px;min-width:40px;border:none;background:0 0;box-shadow:none;color:#fff}
+.layermchild h3{padding:0 45px 0 10px;height:50px;line-height:50px;font-size:16px;font-weight:400;border-radius:3px 3px 0 0;border-bottom:1px solid #EBEBEB}
+.layermbtn span,.layermchild h3{text-overflow:ellipsis;overflow:hidden;white-space:nowrap}
+.layermcont{line-height:1.5;text-align:center;}
+.layermbox1 .layermcont{padding:0;text-align:left}
+.layermbox2 .layermcont{text-align:center;padding:0;line-height:0}
+.layermbox2 .layermcont i{width:25px;height:25px;margin-left:8px;display:inline-block;background-color:#fff;border-radius:100%;-webkit-animation:bouncedelay 1.4s infinite ease-in-out;animation:bouncedelay 1.4s infinite ease-in-out;-webkit-animation-fill-mode:both;animation-fill-mode:both}
+@-webkit-keyframes bouncedelay{
+	0%,100%,80%{transform:scale(0);-webkit-transform:scale(0)}
+	40%{transform:scale(1);-webkit-transform:scale(1)}
+}
+@keyframes bouncedelay{
+	0%,100%,80%{transform:scale(0);-webkit-transform:scale(0)}
+	40%{transform:scale(1);-webkit-transform:scale(1)}
+}
+.layermbox2 .layermcont i:first-child{margin-left:0;-webkit-animation-delay:-.32s;animation-delay:-.32s}
+.layermbox2 .layermcont i.laymloadtwo{-webkit-animation-delay:-.16s;animation-delay:-.16s}
+.layermbox2 .layermcont>div{line-height:22px;padding-top:7px;margin-bottom:20px;font-size:14px}
+.layermbtn{position:relative;height:40px;line-height:40px;font-size:0;text-align:center;border-top:1px solid #cccccc;}
+.layermbtn span{width:50%;text-align:center;font-size:14px;cursor:pointer;border-radius:0 3px 0 0}
+.layermbtn span:first-child{}
+.layermbtn:before{content:'';position:absolute;width:0px;height:39px;left:50%;top:0;background-color:#EBEBEB}
+.layermend{position:absolute;right:7px;top:10px;width:30px;height:30px;border:0;font-weight:400;background:0 0;cursor:pointer;-webkit-appearance:none;font-size:30px}
+.layermend::after,.layermend::before{position:absolute;left:5px;top:15px;content:'';width:18px;height:1px;background-color:#999;transform:rotate(45deg);-webkit-transform:rotate(45deg);border-radius:3px}
+.layermend::after{transform:rotate(-45deg);-webkit-transform:rotate(-45deg)}
+
+
+/**顶部弹出的样式**/
+body .section .layertop{ position:absolute; top:0px; left:0px; width:100%; min-width:100%; max-width:100%; background:url(file:///F|/images/icon/tcbg.png); background-repeat: repeat; color:#fff; }
+body .section .layertop .layermcont{ line-height:2; font-size:18px;}
+
+
+/**弹窗的样式**/
+body .greenicon{font-size:22px; color:#00a54a; padding-right:2%;}
+/*背景色*/
+body .layerballoon,body .layerballoon2{
+	background-color:#ffeec9;
+  	/*-webkit-box-shadow:0 0 0.1rem rgba(0, 0, 0, .5);  
+  	-moz-box-shadow:0 0 0.1rem rgba(0, 0, 0, .5);  
+  	box-shadow:0 0 0.1rem rgba(0, 0, 0, .5);  
+	background:rgba(0,0,0,0.5); border-radius:0.15rem; margin-left:-46%; left:50%; top:30%; position:fixed; font-family:Helvetica,"微软雅黑", sans-serif;*/
+}
+/*字体颜色*/
+body .layerballoon .layermcont,body .layerballoon2 .layermcont{padding-top:25px; padding-bottom:25px; font-size:18px; text-align:center; color:#f4a100;}
+body .layerballoon .layermbtn,body .layerballoon2 .layermbtn{ line-height:50px; height:50px; text-align: center;}
+body .layerballoon .layermbtn span,body .layerballoon2 .layermbtn span{ display:inline-block; font-size:16px; cursor: pointer;}
+body .layerballoon .layermbtn span{width:100%;}
+
+body .layerballoon2 .layermbtn span{width:50%;}  /**若按钮为两个时,则用layerballoon2 样式**/
+body .layerballoon2 .layermbtn span.btndefine,body .layerballoon .layermbtn span.btndefine{color:#009245;}
+body .layerballoon2 .layermbtn span.btncancel{color:#ff5500;}
+
+
+/******************* 自适应【320、480、600】 *******************/
+@media screen and (max-width: 319px){
+	body .layerballoon .layermcont,body .layerballoon2 .layermcont{font-size:12px;}
+}
+@media screen and (min-width: 320px) and (max-width:359px){
+	body .layerballoon .layermcont,body .layerballoon2 .layermcont{font-size:12px;}
+}
+@media screen and (min-width: 360px) and (max-width:479px){
+	body .layerballoon .layermcont,body .layerballoon2 .layermcont{font-size:14px;}
+}
+@media screen and (min-width: 480px) and (max-width:639px){
+	body .layerballoon .layermcont,body .layerballoon2 .layermcont{font-size:16px;}
+}
+@media screen and (min-width: 640px) and (max-width:719px){
+	body .layerballoon .layermcont,body .layerballoon2 .layermcont{font-size:18px;}
+}
+@media screen and (min-width: 720px) and (max-width:1080px){
+	body .layerballoon .layermcont,body .layerballoon2 .layermcont{font-size:20px;}
+}
+@media screen and (min-width: 1200px){
+	body .layerballoon .layermcont,body .layerballoon2 .layermcont{font-size:22px;}
+}
+

@@ -1,0 +1,116 @@
+/* CSS Document */
+* {
+	margin: 0;
+	padding: 0;	
+}
+body, html {
+	border: 0;
+	outline: 0;
+	font-family: "微软雅黑";
+	list-style: none;
+	text-decoration: none;
+	/*overflow:scroll;*/
+/*	overflow-style:marquee-line;*/
+	overflow-y:auto;
+	overflow-x:hidden;
+}
+.content {
+	width:100%;
+	height:auto;
+	background:url(../image/bg.jpg) no-repeat top center;
+	background-size:auto;
+}
+.container {
+	position:relative;
+	padding-top: 1010px;
+	/*width: 1200px;*/
+	width:1007px;
+	/*height:3750px;*/
+	margin: 0 auto;
+}
+.name {
+	float: left;
+	font-family: "方正综艺简体";
+	font-size: 30px;
+	color: #06dfff;
+	width: 135px;
+	height: 156px;
+	text-align: center;
+	line-height: 156px;
+	background:url(../image/kuang.png);
+}
+.introduce {
+	float: left;
+	width:476px;
+	height: 590px;
+}
+.introduce h3{
+	font-family: "方正正准黑简体";
+	font-size: 20px;
+	color: #00d9f9;
+	margin-top:70px;
+	margin-left: 32px;
+	font-weight: normal;
+}
+.p1 {
+	padding:0 35px;
+	letter-spacing: 2px;
+	margin-top: 30px;
+	font-size: 14px;
+	color: #fff;
+	line-height: 28px;
+	text-indent: 2.5em;
+}
+.p2 {
+	padding:0 35px;
+	letter-spacing: 2px;
+	font-size: 14px;
+	color: #fff;
+	line-height: 28px;
+	text-indent: 2.5em;
+}
+.img1 {
+	/*border:1px green solid;*/
+	float: left;
+}
+.introduce h4 {
+	font-family: "方正正准黑简体";
+	font-size: 20px;
+	color: #00d9f9;
+	margin: 20px 0;
+	margin-left: 32px;
+	font-weight: normal;
+}
+.img2 {
+	float: left;
+}
+.laoshi1 {
+	
+}
+.laoshi2 {
+	margin-top:309px;	
+}
+.laoshi3 {
+	margin-top:320px;	
+}
+.laoshi4 {
+	margin-top:370px;
+	padding-bottom:370px;
+}
+.clear {
+	clear: both;
+}
+.img3 {
+	float: right;
+	padding-right:45px;
+}
+
+.shang_box{padding:10px;background-color:#fff;border-radius:10px;position:fixed;z-index:1000;left:50%;top:50%;margin-left:-180px;margin-top:-280px;border:1px dotted #dedede;display:none;}
+.shang_close{float:right;display:inline-block;}
+.shang_payimg{/*width:140px;*/padding:10px;/*border:6px solid #EA5F00;*/margin:0 auto;border-radius:3px;/*height:140px;*/}
+.shang_payimg img{display:block;text-align:center;/*width:140px;height:140px;*/ }
+.pay_explain{text-align:center;margin:10px auto;font-size:24px;color:#545454;}
+
+
+
+

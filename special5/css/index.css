@@ -1,0 +1,261 @@
+/* CSS Document */
+body, html { position:relative; width:100%; max-width: 650px; margin: 0 auto; background-color:#FFF; font-family:'Microsoft YaHei'; overflow-x:hidden;}
+
+input{ width:0; height:0; border:0 none; /*outline:0 none;*/ border-radius:0 none; -webkit-appearance:none; -moz-appearance:none; box-shadow:none; -webkit-box-shadow:none; overflow:visible; box-sizing:content-box; -webkit-box-sizing:content-box; -moz-box-sizing:content-box; zoom:none; outline:medium none; }
+
+header{ position:relative; width:100%;}
+
+.topbg img{ width:32.5rem; height:26rem;}
+
+.toptext img{ position:absolute; top:4.75rem; left:50%; margin-left:-12.725rem;  width:25.45rem; height:3.2rem; }
+
+.toplogo img{ position:absolute; top:9.25rem; left:50%; margin-left:-12.475rem; width:24.95rem; height:2.45rem;}
+
+.input{ position:absolute; top:13rem; left:50%; margin-left:-12.625rem;}
+
+.laction{ position:relative; width:25.25rem; /*height:2.5rem;*/ border-radius: 28px; -moz-border-radius: 28px; /*border:0.25rem solid red;*/ border: 0.25rem solid rgba(255,255,255,0.3);}
+
+.btnTxt{ position:relative; width:17rem; height:2.5rem; font-size:1.5rem; padding-left:2rem; padding-right:6.25rem; border-radius: 28px; -moz-border-radius: 28px; }
+
+.inputleft img{ position:absolute; top:50%; margin-top:-0.675rem; left:0.425rem; width:1.15rem; height:1.35rem;}
+
+.inputright .btn{ position:absolute; top:0; right:0; width:6.25rem; cursor: pointer;}
+
+.box{ position:absolute; width:100%; height:1.5rem; top:19rem; text-align:center; }
+
+.box2{ position:absolute; width:100%; height:1.5rem; top:22rem; text-align:center;}
+
+.box p,.box2 p{ color:#FFF; font-size:1rem; line-height:1.5rem;}
+
+.font-d,.font-d2,#mob,#pla{ color:#ffea00; }
+
+.content{ position:relative; width:100%;}
+
+.iconbox{ position:relative; width:26.5rem; height:5rem; margin:2rem auto;}
+
+.iconbox img{ position:absolute; left:0; width:5rem; height:5rem;}
+
+.iconContent{ position:absolute; right:0; width:20rem; height:5rem;}
+
+.iconContent h3{ margin-top:0.5rem; font-size:1.1rem;}
+
+.iconContent p{ margin-top:0.5rem; font-size:1rem;}
+
+.content-img{ width:100%; height:5rem; background-color:#000; text-align:center; line-height:5rem;}
+
+.content-img img{ width:15rem; height:1.5rem;}
+
+.content2{ position:relative; width:100%;}
+
+.NumContentbox{ position:relative; width:25.6rem; height:4.2rem; margin:2.5rem auto; }
+
+.NumContentbox img{ position:absolute; top:0; left:0; width:3.2rem; height:4.05rem;}
+
+.contentbox{ position:absolute; top::0; right:0; width:21.4rem; height:4.2rem;}
+
+.contentbox h3{ font-size:1.25rem;}
+
+.contentbox p{ font-size:1rem; margin-top:0.5rem;}
+
+footer{ width:100%; height:4rem; background-color:#000; text-align:center; line-height:4rem;}
+
+footer img{ width:23.8rem; height:1.05rem;}
+
+
+
+/*弹窗*/
+.PopupBox {
+	position: fixed;
+	top: 50%;
+	left:50%;
+	margin: -11rem 0 0 -15rem;
+	width: 30rem;
+	height: 22rem;
+	background-color: #f4f4f4;
+	display: none;
+	z-index: 1000;
+}
+.row1 {
+	position: relative;
+	width: 100%;
+	height: 3rem;
+	line-height: 3rem;
+	text-align: center;
+	font-family: '方正正中黑简体';
+	font-size: 1rem;
+	font-weight: normal;
+	color: #49474c;
+	text-shadow: 0.05rem 0.05rem 0.05rem rgba(255,255,255,1);
+	/*渐变*/
+	background: -moz-linear-gradient(top, #edeef3 0%, #cccacb 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #edeef3), color-stop(100%, #cccacb));
+	background: -webkit-linear-gradient(top, #edeef3 0%, #cccacb 100%);
+	background: -o-linear-gradient(top, #edeef3 0%, #cccacb 100%);
+	background: -ms-linear-gradient(top, #edeef3 0%, #cccacb 100%);
+	background: linear-gradient(to bottom, #edeef3 0%, #cccacb 100%);
+	/*ie*/
+ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#edeef3', endColorstr='#cccacb', GradientType=0 );
+}
+.row1 span {
+	font-family: '方正正中黑简体';
+	font-size: 1.2rem;
+	font-weight: normal;
+	color: #49474c;
+	text-shadow: 0.05rem 0.05rem 0.05rem rgba(255,255,255,1);
+}
+.name {
+	font-family: '方正正中黑简体';
+	font-size: 1.2rem;
+	margin-left: 1rem;
+}
+.close_btn {
+	font-family: arial;
+	font-size: 2.5rem;
+	font-weight: 400;
+	color:rgba(0,0,0,0.5);
+	text-decoration: none;
+	float: right;
+	padding-right: 1.2rem;
+}
+.close_btn:hover {
+	font-family: arial;
+	font-size: 2.5rem;
+	font-weight: 400;
+	color: #999;
+	text-decoration: none;
+	float: right;
+	padding-right: 1.2rem;
+}
+.row {
+	position: relative;
+	width: 100%;
+	height: 2.5rem;
+	font-family: '方正正黑简体';
+	font-size: 1rem;
+	font-weight: normal;
+	color: #49474c;
+	margin: 1.6rem auto;
+	margin-left: 3.75rem;
+}
+.row input {
+	width: 15rem;
+	height: 2.5rem;
+	font-size:1.2rem;
+	padding-left: 2rem;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	border: 0.05rem solid #b2b2b2;
+	/*渐变*/
+	background: -moz-linear-gradient(top, #e5e5e5 0%, #f2f2f2 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #e5e5e5), color-stop(100%, #f2f2f2));
+	background: -webkit-linear-gradient(top, #e5e5e5 0%, #f2f2f2 100%);
+	background: -o-linear-gradient(top, #e5e5e5 0%, #f2f2f2 100%);
+	background: -ms-linear-gradient(top, #e5e5e5 0%, #f2f2f2 100%);
+	background: linear-gradient(to bottom, #e5e5e5 0%, #f2f2f2 100%);
+	/*ie*/
+   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5e5e5', endColorstr='#f2f2f2', GradientType=0 );
+}
+.sub_btn {
+	padding: 0.5rem 4.75rem;
+	margin-left: 4.35rem;
+	margin-top: 1rem;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	/*渐变*/
+	background: -moz-linear-gradient(top, #76ba31 0%, #a7d24d 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #76ba31), color-stop(100%, #a7d24d));
+	background: -webkit-linear-gradient(top, #76ba31 0%, #a7d24d 100%);
+	background: -o-linear-gradient(top, #76ba31 0%, #a7d24d 100%);
+	background: -ms-linear-gradient(top, #76ba31 0%, #a7d24d 100%);
+	background: linear-gradient(to bottom, #76ba31 0%, #a7d24d 100%);
+	/*ie*/
+   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#76ba31', endColorstr='#a7d24d', GradientType=0 );
+}
+.row span{
+	position:relative;
+	}
+.inputBox1 input {
+	margin-left: 3rem;
+}
+.inputBox1 img {
+	position: absolute;
+	top: 50%;
+	margin-top:-0.85rem;
+	left: 3.2rem;
+	
+	width:1.75rem;
+	height:1.7rem;
+}
+.inputBox2 input {
+	margin-left: 2rem;
+}
+.inputBox2 img {
+	position: absolute;
+	top: 50%;
+	margin-top:-0.925rem;
+	left: 2rem;
+	
+	width:1.75rem;
+	height:1.85rem;
+}
+.inputBox3 input {
+	margin-left: 2rem;
+}
+.inputBox3 img {
+	position: absolute;
+	top: 50%;
+	margin-top:-0.975rem;
+	left: 2rem;
+	
+	width:1.75rem;
+	height:1.95rem;
+}
+.inputBox3 .btns {
+	position: absolute;
+	width: 5rem;
+	height: 2.5rem;
+	background-color: #595959;
+	font-family: '方正正黑简体';
+	font-size: 0.65rem;
+	color: #FFF;
+	right: 0;
+	top:50%;
+	margin-top:-1.25rem;
+	border-radius: 0 10px 10px 0;
+	-webkit-border-radius: 0 10px 10px 0;
+	-moz-border-radius: 0 10px 10px 0;
+	cursor: pointer;
+	text-shadow: 0.05rem 0.05rem 0.05rem rgba(89,89,89,0.3);
+}
+.sub_btn {
+	font-family: '方正正中黑简体';
+	font-size: 1.2rem;
+	color: #49474c;
+	cursor: pointer;
+	/*边框外阴影*/
+	box-shadow: 0.05rem 0.05rem 0.1rem rgba(0,0,0,.2);
+	-webkit-box-shadow: 0.05rem 0.05rem 0.1rem rgba(0,0,0,.2);
+	-moz-box-shadow: 0.05rem 0.05rem 0.1rem rgba(0,0,0,.2);
+	/*文本阴影*/
+	text-shadow: 0.05rem 0.05rem 0.05rem rgba(255,255,255,0.8);
+	/*边框内阴影*/
+	box-shadow: 0 0 0.15rem 0.15rem rgba(92,146,0,0.35) inset;
+	-webkit-box-shadow: 0 0 0.15rem 0.15rem rgba(92,146,0,0.35) inset;
+	-moz-box-shadow: 0 0 0.15rem 0.15rem rgba(92,146,0,0.35) inset;
+}
+.sub_btn:hover {
+	box-shadow: 0 0 0.15rem 0.15rem rgba(92,146,0,0.5) inset;
+	-webkit-box-shadow: 0 0 0.15rem 0.15rem rgba(92,146,0,0.5) inset;
+	-moz-box-shadow: 0 0 0.15rem 0.15rem rgba(92,146,0,0.5) inset;
+	/*渐变*/
+	background: -moz-linear-gradient(top, rgba(118,186,49,0.9) 0%, rgba(167,210,77,0.9) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(118,186,49,0.9)), color-stop(100%, rgba(167,210,77,0.9)));
+	background: -webkit-linear-gradient(top, rgba(118,186,49,0.9) 0%, rgba(167,210,77,0.9) 100%);
+	background: -o-linear-gradient(top, rgba(118,186,49,0.9) 0%, rgba(167,210,77,0.9) 100%);
+	background: -ms-linear-gradient(top, rgba(118,186,49,0.9) 0%, rgba(167,210,77,0.9) 100%);
+	background: linear-gradient(to bottom, rgba(118,186,49,0.9) 0%, rgba(167,210,77,0.9) 100%);
+	/*ie*/
+   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='rgba(118,186,49,0.9)', endColorstr='rgba(167,210,77,0.9)', GradientType=0 );
+}
+/*弹窗end*/

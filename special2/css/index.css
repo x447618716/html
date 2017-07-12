@@ -1,0 +1,385 @@
+/* CSS Document */
+* {
+	margin: 0;
+	padding: 0;
+	outline: none;
+	border: none;
+}
+li {
+	list-style-type: none;
+}
+img {
+	border: 0 none;/*vertical-align:top;*//*display:block;
+	width: 100%;*/
+}
+a {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+input {
+	border-width: 0;
+	width: 0;
+}
+.clear {
+	zoom: 1;
+}
+.clear:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+body, html {
+	min-width: 1440px;
+	overflow-y: auto;
+	min-height: 100%;
+	font-family: "微软雅黑";
+	font-weight: normal;
+	background-color: #000;
+	/*background-color:red;*/
+	overflow-x: hidden;
+}
+.top {
+	position: relative;
+	width: 100%;
+	height: 432px;
+	background: url(../image/banner1.jpg) no-repeat top;/*background-size: cover;*/
+}
+.top img {
+/*position:relative;
+	width:1920px;
+	left:50%;
+	margin-left:-960px;
+	margin-right:-960px;	*/
+}
+.hearder {
+	position: relative;/*border: 1px solid red;*/
+	width: 100%;
+	height: 265px;
+	background: url(../image/banner2.jpg) no-repeat top;/*	background-size: cover;*/
+}
+.hearder-img img {
+/*	position:relative;
+	width:1920px;
+	left:50%;
+	margin-left:-960px;
+	margin-right:-960px;		*/
+}
+.search {
+	position: absolute;
+	width: 950px;
+	top: 0;
+	left: 50%;
+	/*padding-left:-475px;*/
+	margin-left: -475px;/*border: 1px solid blue;*/
+}
+.btnTxt {
+	position: relative;
+	width: 840px;
+	height: 50px;
+	font-size: 18px;
+	padding-left: 50px;
+	padding-right: 50px;
+	border-radius: 28px;
+	-moz-border-radius: 28px;
+	border: 5px solid rgba(0,0,0,0.7);
+}
+.Icon-left {
+	position: absolute;
+	top: 15px;
+	left: 15px;
+}
+.Icon-right {
+	position: absolute;
+	top: 5px;
+	right: 4px;
+}
+.box {
+	position: absolute;
+	width: 950px;
+	height: 20px;
+	top: 130px;
+	left: 50%;
+	/*	padding-left:-475px;*/
+	margin-left: -475px;
+}
+.font-gd {
+	position: relative;
+	width: 50%;
+	height: 24px;
+	overflow: hidden;
+	float: left;
+}
+.font-gd p {
+	font-family: "方正兰亭粗黑简体";
+	font-size: 20px;
+	color: #FFF;
+}
+.font-gd span {
+	font-family: "方正兰亭粗黑简体";
+	font-size: 20px;
+	color: #FF0;
+}
+.font-gd li {
+	font-family: "方正兰亭粗黑简体";
+	font-size: 20px;
+	color: #FFF;
+}
+.content {
+	position: relative;
+}
+.content-top {
+	position: relative;
+	width: 100%;
+	height: 392px;
+	background: url(../image/middlebg.jpg) no-repeat top;/*background-size: cover;*/
+}
+.content-top img {
+/*position:relative;
+	width:1920px;
+	left:50%;
+	margin-left:-960px;
+	margin-right:-960px;	*/	
+}
+.content-tit {
+	position: relative;
+	text-align: center;
+	/*padding:20px auto;*/
+	margin: 20px auto;/*border:1px solid green;*/
+}
+.content-content {
+	position: relative;
+	width: 100%;
+	background-color: #FFF;
+	padding-top: 80px;
+	padding-bottom: 80px;/*border: 1px solid red;*/
+}
+.content-box {
+	position: relative;
+	width: 1200px;
+	left: 50%;
+	margin-left: -530px;/*border:2px solid red;*/
+}
+.box-left {
+	position: relative;
+	width: 600px;
+	height: 177px;
+	float: left;/*border:1px solid blue;*/
+}
+.box-right {
+	position: relative;
+	width: 600px;
+	height: 177px;
+	float: right;
+}
+.box-Icon {
+	position: relative;
+	width: 80px;
+	height: 177px;
+	float: left;
+}
+.box-content {
+	position: relative;
+	width: 520px;
+	height: 177px;
+	float: right;
+}
+.box-content h1 {
+	font-size: 32px;
+	color: #000;
+	margin-left: 20px;
+}
+.box-content p {
+	font-size: 25px;
+	line-height: 35px;
+	color: #404040;
+	margin-left: 20px;
+}
+/*手机验证*/
+.Validform_error {
+	background: #ffe7e7;
+}
+.code-gray {
+	background: #eee;
+	color: #808080;
+}
+/*弹窗*/
+.PopupBox {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	margin: -300px 0 0 -220px;
+	width: 600px;
+	height: 440px;
+	background-color: #f4f4f4;
+	display: none;
+	z-index: 1000;
+}
+.row1 {
+	position: relative;
+	width: 100%;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	font-family: '方正正中黑简体';
+	font-size: 20px;
+	font-weight: normal;
+	color: #49474c;
+	text-shadow: 1px 1px 1px rgba(255,255,255,1);
+	/*渐变*/
+	background: -moz-linear-gradient(top, #edeef3 0%, #cccacb 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #edeef3), color-stop(100%, #cccacb));
+	background: -webkit-linear-gradient(top, #edeef3 0%, #cccacb 100%);
+	background: -o-linear-gradient(top, #edeef3 0%, #cccacb 100%);
+	background: -ms-linear-gradient(top, #edeef3 0%, #cccacb 100%);
+	background: linear-gradient(to bottom, #edeef3 0%, #cccacb 100%);
+	/*ie*/
+ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#edeef3', endColorstr='#cccacb', GradientType=0 );
+}
+:root .row1 {
+	filter: none;
+}
+.row1 span {
+	font-family: '方正正中黑简体';
+	font-size: 24px;
+	font-weight: normal;
+	color: #49474c;
+	text-shadow: 1px 1px 1px rgba(255,255,255,1);
+}
+.name {
+	font-family: '方正正中黑简体';
+	font-size: 24px;
+	margin-left: 20px;
+}
+.close_btn {
+	font-family: arial;
+	font-size: 50px;
+	font-weight: 400;
+	color:rgba(0,0,0,0.5);
+	text-decoration: none;
+	float: right;
+	padding-right: 24px;
+}
+.close_btn:hover {
+	font-family: arial;
+	font-size: 50px;
+	font-weight: 400;
+	color: #999;
+	text-decoration: none;
+	float: right;
+	padding-right: 24px;
+}
+.row {
+	position: relative;
+	width: 100%;
+	height: 50px;
+	font-family: '方正正黑简体';
+	font-size: 20px;
+	font-weight: normal;
+	color: #49474c;
+	margin: 32px auto;
+	margin-left: 75px;
+}
+.row label {
+	position: absolute;
+	top: 5px;
+	left: 115px;
+}
+.row input {
+	width: 300px;
+	height: 50px;
+	line-height: 50px;
+	padding-left: 40px;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	border: 1px solid #b2b2b2;
+	/*渐变*/
+	background: -moz-linear-gradient(top, #e5e5e5 0%, #f2f2f2 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #e5e5e5), color-stop(100%, #f2f2f2));
+	background: -webkit-linear-gradient(top, #e5e5e5 0%, #f2f2f2 100%);
+	background: -o-linear-gradient(top, #e5e5e5 0%, #f2f2f2 100%);
+	background: -ms-linear-gradient(top, #e5e5e5 0%, #f2f2f2 100%);
+	background: linear-gradient(to bottom, #e5e5e5 0%, #f2f2f2 100%);
+	/*ie*/
+   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5e5e5', endColorstr='#f2f2f2', GradientType=0 );
+}
+:root .row input {
+	filter: none;
+}
+.sub_btn {
+	padding: 10px 95px;
+	margin-left: 87px;
+	margin-top: 20px;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	/*渐变*/
+	background: -moz-linear-gradient(top, #76ba31 0%, #a7d24d 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #76ba31), color-stop(100%, #a7d24d));
+	background: -webkit-linear-gradient(top, #76ba31 0%, #a7d24d 100%);
+	background: -o-linear-gradient(top, #76ba31 0%, #a7d24d 100%);
+	background: -ms-linear-gradient(top, #76ba31 0%, #a7d24d 100%);
+	background: linear-gradient(to bottom, #76ba31 0%, #a7d24d 100%);
+	/*ie*/
+   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#76ba31', endColorstr='#a7d24d', GradientType=0 );
+}
+:root .sub_btn {
+	filter: none;
+}
+.inputBox1 input {
+	margin-left: 60px;
+}
+.inputBox2 input {
+	margin-left: 40px;
+}
+.inputBox3 input {
+	margin-left: 40px;
+}
+.inputBox3 .btns {
+	position: absolute;
+	width: 100px;
+	height: 50px;
+	background-color: #595959;
+	font-family: '方正正黑简体';
+	font-size: 15px;
+	color: #FFF;
+	right: 148px;
+	bottom: -1px;
+	border-radius: 0 10px 10px 0;
+	-webkit-border-radius: 0 10px 10px 0;
+	-moz-border-radius: 0 10px 10px 0;
+	cursor: pointer;
+	text-shadow: 1px 1px 1px rgba(89,89,89,0.3);
+}
+.sub_btn {
+	font-family: '方正正中黑简体';
+	font-size: 24px;
+	color: #49474c;
+	cursor: pointer;
+	/*边框外阴影*/
+	box-shadow: 1px 1px 2px rgba(0,0,0,.2);
+	-webkit-box-shadow: 1px 1px 2px rgba(0,0,0,.2);
+	-moz-box-shadow: 1px 1px 2px rgba(0,0,0,.2);
+	/*文本阴影*/
+	text-shadow: 1px 1px 1px rgba(255,255,255,0.8);
+	/*边框内阴影*/
+	box-shadow: 0px 0px 3px 3px rgba(92,146,0,0.35) inset;
+	-webkit-box-shadow: 0px 0px 3px 3px rgba(92,146,0,0.35) inset;
+	-moz-box-shadow: 0px 0px 3px 3px rgba(92,146,0,0.35) inset;
+}
+.sub_btn:hover {
+	box-shadow: 0px 0px 3px 3px rgba(92,146,0,0.5) inset;
+	-webkit-box-shadow: 0px 0px 3px 3px rgba(92,146,0,0.5) inset;
+	-moz-box-shadow: 0px 0px 3px 3px rgba(92,146,0,0.5) inset;
+	/*渐变*/
+	background: -moz-linear-gradient(top, rgba(118,186,49,0.9) 0%, rgba(167,210,77,0.9) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(118,186,49,0.9)), color-stop(100%, rgba(167,210,77,0.9)));
+	background: -webkit-linear-gradient(top, rgba(118,186,49,0.9) 0%, rgba(167,210,77,0.9) 100%);
+	background: -o-linear-gradient(top, rgba(118,186,49,0.9) 0%, rgba(167,210,77,0.9) 100%);
+	background: -ms-linear-gradient(top, rgba(118,186,49,0.9) 0%, rgba(167,210,77,0.9) 100%);
+	background: linear-gradient(to bottom, rgba(118,186,49,0.9) 0%, rgba(167,210,77,0.9) 100%);
+	/*ie*/
+   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='rgba(118,186,49,0.9)', endColorstr='rgba(167,210,77,0.9)', GradientType=0 );
+}
+/*弹窗end*/

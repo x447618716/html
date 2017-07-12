@@ -1,0 +1,186 @@
+/* CSS Document */
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+ul, li {
+	list-style: none;
+}
+img {
+	vertical-align:top;
+	width: 100%;
+}
+body,html {
+	font-family: '方正粗倩简体';
+	/*overflow-y:auto;*/
+	overflow-x:hidden;
+}
+.container {
+	position: relative;
+	width: 100%;
+	height: auto;
+}
+.logo{
+	position:absolute;
+	width:10%;
+	height:auto;
+	left:13%;
+	}
+.content {
+	position: relative;
+	width: 100%;
+	height: auto;
+	background: url(../image/bg.jpg) repeat-y;
+	padding-top: 3.5rem;
+}
+.body {
+	width: 70%;
+	height: auto;
+	/*border: 1px solid #000;*/
+	margin: 0 auto;
+}
+.activity {
+	position: relative;
+	text-align: center;
+	/*border: 1px solid red;*/
+	width: 95%;
+	height: auto;
+	left: 5%;
+}
+.img1 {
+	position: relative;
+	z-index: 2;
+	/*border: 1px solid blue;*/
+}
+.box {
+	position: absolute;
+	top: 30%;
+	width: 87%;
+	height: auto;
+	/*border: 1px solid yellow;*/
+	z-index: 1;
+}
+.time {
+	position: relative;
+	font-size: 40px;
+	color: #f8e69e;
+}
+.con {
+	position: relative;
+	font-size: 30px;
+	color: #f8e69e;
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-top: 30px;
+	margin-bottom: 40px;
+}
+.activity2 {
+	position: relative;
+	text-align: center;
+	/*border: 1px solid #C09;*/
+	width: 88%;
+	height: auto;
+	margin-top: 45%;
+}
+.img2 {
+	position: relative;
+	z-index: 2;
+	/*border: 1px solid green;*/
+}
+.box2 {
+	position: absolute;
+	top: 20%;
+	left: 5%;
+	width: 95%;
+	height: auto;
+	/*border: 1px solid yellow;*/
+	z-index: 1;
+}
+.activity3 {
+	position: relative;
+	/*border: 1px solid #C09;*/
+	width: 84%;
+	height: auto;
+	margin-top: 48%;
+	left: 4.5%;
+}
+.activity3 p {
+	font-size: 30px;
+	color: #f8e69e;
+	text-indent: 2em;
+	line-height: 50px;
+}
+.img4 {
+	margin-top: 5%;
+}
+.left {
+	position: absolute;
+	width: 15%;
+	height: auto;
+	left: 0;
+	/*border: 1px solid #0F0;*/
+}
+.right {
+	position: absolute;
+	width: 15%;
+	height: auto;
+	right: 0;
+	/*border: 1px solid #F00;*/
+}
+.money1 {
+	position: relative;
+	margin-top: 250%;
+	margin-left: 2%;
+	margin-right: 2%;
+}
+.money2 {
+	position: relative;
+	margin-top: 300%;
+	margin-left: 2%;
+	margin-right: 2%;
+}
+.money3 {
+	position: relative;
+	margin-top: 400%;
+	right:0;	
+}
+.money4 {
+	position: relative;
+	margin-top: 450%;
+	margin-left: 2%;
+	margin-right: 2%;
+}
+ @media screen and (max-width:414px) {
+.time {
+	position: relative;
+	font-size: 0.6rem;
+	color: #f8e69e;
+}
+.con {
+	position: relative;
+	font-size: 0.6rem;
+	color: #f8e69e;
+	margin-top: 1rem;
+	margin-bottom: 0.6rem;
+	margin-left: 2rem;
+	margin-right: 2rem;
+}
+.activity3 {
+	position: relative;
+	/*border: 1px solid #C09;*/
+	width: 84%;
+	height: auto;
+	margin-top: 48%;
+	left: 4.5%;
+}
+.activity3 p {
+	font-size: 1rem;
+	color: #f8e69e;
+	text-indent: 2em;
+	line-height: 2rem;
+}
+}
+.clear {
+	clear: both;
+}

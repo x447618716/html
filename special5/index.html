@@ -1,0 +1,128 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>交易所资质真假查询</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<link href="css/reset.css" type="text/css" rel="stylesheet">
+<link href="css/index.css" type="text/css" rel="stylesheet">
+<link href="css/layer.css" type="text/css" rel="stylesheet">
+<script type="text/javascript" src="https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/jquery/jquery-1.10.2.min_f2fb5194.js"></script>
+<script type="text/javascript" src="js/text.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+</head>
+
+<body>
+<header>
+    <p class="topbg"><img src="image/bg.jpg"></p>
+    <p class="toptext"><img src="image/text.png"></p>
+    <p class="toplogo"><img src="image/sec.png"></p>
+    <section class="input">
+        <div class="laction"> 
+            <input  id="btnTxt" class="btnTxt" type="text" placeholder="请输入您要查询的平台" >
+            <p class="inputleft"><img src="image/input.png"></p>
+            <p class="inputright"><img src="image/input2.png" class="btn"></p>
+        </div>
+    </section>
+    <section class="box">
+        <p>已有<span class="font-red num"><span class="font-d">2</span><span class="font-d">9</span><span class="font-d">9</span><span class="font-d">9</span><span class="font-d">1</span></span>名网友查询了<span class="font-red num2"><span class="font-d2">2</span><span class="font-d2">9</span><span class="font-d2">9</span><span class="font-d2">3</span><span class="font-d2">2</span></span>个平台</p>
+    </section>
+    <section class="box2">
+        <p>用户<span id="mob">186****5623</span>查询了<span id="pla">厦门两岸商品交易中心</span></p>
+    </section>
+</header>
+<hgroup>
+    <input class="text5555" >
+    <section class="content">
+        <div class="iconbox"> <img src="image/icon_25.png">
+            <div class="iconContent">
+                <h3>实时云查询</h3>
+                <p>收录金融投资多种类平台，查询结果实时反馈。</p>
+            </div>
+        </div>
+        <div class="iconbox"> <img src="image/icon_27.png">
+            <div class="iconContent">
+                <h3>多维度验证</h3>
+                <p>核实企业执照、资质，交易所会员单位认证资质
+                    等多方面核查、认证。</p>
+            </div>
+        </div>
+        <div class="iconbox"> <img src="image/icon_29.png">
+            <div class="iconContent">
+                <h3>交叉核实认</h3>
+                <p>通过用户提交的查询信息，核实企业执照、资质，
+                    等多方面核查、认证。</p>
+            </div>
+        </div>
+        <div class="iconbox"> <img src="image/icon_31.png">
+            <div class="iconContent">
+                <h3>数据库中心</h3>
+                <p>专注于收录平台的资质审核和认证信息，查询结果
+                    真实可靠。</p>
+            </div>
+        </div>
+    </section>
+    <section class="content-img"><img src="image/text2.png"></section>
+    <section class="content2">
+        <div class="NumContentbox"> <img src="image/one.png">
+            <div class="contentbox">
+                <h3>是否为国家批准平台</h3>
+                <p>非法交易平台没有正当的会员资质，
+                    或者自编资质。</p>
+            </div>
+        </div>
+        <div class="NumContentbox"> <img src="image/two.png">
+            <div class="contentbox">
+                <h3>出入金是否自由</h3>
+                <p>非法平台入金容易出金难，
+                    限制投资的出入金</p>
+            </div>
+        </div>
+        <div class="NumContentbox"> <img src="image/three.png">
+            <div class="contentbox">
+                <h3>限制用户交易</h3>
+                <p>如美国非农数据公布等大行情来临时，
+                    阻碍投资者交易，甚至是直接关闭服务
+                    器造成客户端掉线！</p>
+            </div>
+        </div>
+        <div class="NumContentbox"> <img src="image/four.png">
+            <div class="contentbox">
+                <h3>软件是否正规</h3>
+                <p>非法交易平台通过后台操作软件，
+                    虚假报价，通过后台随意修改操盘点位，
+                    从而影响投资者收益。</p>
+            </div>
+        </div>
+        <div class="NumContentbox"> <img src="image/five.png">
+            <div class="contentbox">
+                <h3>平台和投资者对赌</h3>
+                <p>自己开发或者租赁交易软件，
+                    自己坐庄，成为投资者的 对手，
+                    客户的亏损就是他们的盈利！</p>
+            </div>
+        </div>
+    </section>
+</hgroup>
+<footer> <img src="image/text3.png"> </footer>
+<!--弹窗结构-->
+<div id="PopupBox" class="PopupBox">
+    <div class="row1"> 正在查询<span class="name"></span><a href="javascript:void(0)" title="关闭窗口" class="close_btn" id="closeBtn">×</a> </div>
+    <div class="row"> 姓名: <span class="inputBox1">
+        <label for="txtName"><img src="image/reg_1.png" /></label>
+        <input type="text" id="txtName" onFocus="this.style.background='white'" onBlur="this.style.background='none'" placeholder="请输入您的姓名：如张先生" />
+        </span> </div>
+    <div class="row"> 手机号: <span class="inputBox2">
+        <label for="mob2"><img src="image/reg_02.png" /></label>
+        <input type="tel" id="mob2" onFocus="this.style.background='white'" onBlur="this.style.background='none'" placeholder="请输入您的手机号码" />
+        </span> </div>
+    <div class="row"> 验证码: <span class="inputBox3">
+        <label for="code"><img src="image/reg_03.png" /></label>
+        <input type="text" id="code" onFocus="this.style.background='white'" onBlur="this.style.background='none'" placeholder="验证码" />
+        <button type="button" class="btns"  >获取验证码</button>
+        </span> </div>
+    <div class="row"> <button class="sub_btn" >提交查询</button> </div>
+</div>
+<!--弹窗结构 end-->
+</body>
+</html>
